@@ -33,14 +33,15 @@ img {
 
 h1,
 h2,
-p,
-ul {
+p {
   margin: 0;
 }
 
 ul {
-  padding: 0;
-  list-style: none;
+  @apply list-disc p-3 m-3
+  
+  /* padding: 0;
+  list-style: none; */;
 }
 
 button {
